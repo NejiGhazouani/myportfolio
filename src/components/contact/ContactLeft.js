@@ -28,25 +28,25 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-        <a href='https://www.facebook.com/neji.ghazouani.9/' target="_blank"
+        <a href='https://www.facebook.com/neji.ghazouani.9/' rel="noreferrer noopener" target="_blank"
         >
           <span className="bannerIcon">
             <FaFacebookF />
           </span>
           </a>
-          <a href='https://twitter.com/nejighazouwani' target="_blank"
+          <a href='https://twitter.com/nejighazouwani'rel="noreferrer noopener"  target="_blank"
         >
           <span className="bannerIcon">
             <FaTwitter />
           </span>
           </a>
-          <a href='https://www.linkedin.com/in/neji-ghazouani-innovation-success/' target="_blank"
+          <a href='https://www.linkedin.com/in/neji-ghazouani-innovation-success/' rel="noreferrer noopener" target="_blank"
         >
           <span className="bannerIcon">
             <FaLinkedinIn />
           </span>
           </a>
-          <a href='https://github.com/NejiGhazouani' target="_blank"
+          <a href='https://github.com/NejiGhazouani' rel="noreferrer noopener" target="_blank"
         >
           <span className="bannerIcon">
           <FaGithub />
