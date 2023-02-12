@@ -15,7 +15,7 @@ const Features = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
       <Card
           title="App Development"
-          des="Developing apps with Nest.js, Node.js,React and angular is a great way to build modern, robust and high-performing applications."
+          des="Developing apps with Nest.js, Node.js,React and Angular is a great way to build modern, robust and high-performing applications."
           icon={<AiFillAppstore />}
         />
         <Card
@@ -25,7 +25,7 @@ const Features = () => {
         /> 
         <Card
           title="Devops"
-          des="Using Docker for development allows for creating consistent and portable development environments, making it easier to develop and test applications on any platform."
+          des="Using GitHub Actions automate tasks such as building, testing, and deploying your apps."
           icon={<FaGlobe />}
         />
       </div>
