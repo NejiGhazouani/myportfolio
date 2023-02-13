@@ -45,7 +45,7 @@ const LeftBanner = () => {
               {/* ////////////////////////////////////////////////////////////////////////////////////// */}
               <a
 						download="Resume.pdf"
-						href="resume.pdf"
+						href="Resume.pdf"
 						aria-label="Download Resume"
 					>
 						<span className="bannerIcon">
