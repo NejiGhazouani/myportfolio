@@ -1,5 +1,7 @@
 # Portfolio using ReactJS, Tailwind, and Deployed with GitHub Pages
 [My Portfolio](https://nejighazouani.github.io/myportfolio/)
+
+
 This is a portfolio website built using ReactJS, Tailwind CSS, and deployed using GitHub Pages. The website is automated using GitHub Actions to build and deploy the website.
 
 ## Prerequisites
@@ -13,12 +15,11 @@ This is a portfolio website built using ReactJS, Tailwind CSS, and deployed usin
 
 ```bash
   git clone https://github.com/NejiGhazouani/myportfolio.git
-  cd portfolio
 ```
 2 - Go to the project directory:
 
 ```bash
-  cd portfolio
+  cd myportfolio
   ```
 3 - Install the dependencies:    
 ```bash
