@@ -4,7 +4,7 @@ import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import Slider from "react-slick";
 import { projects } from '../../constants/projects';
 import ProjectsCard from './ProjectsCard';
-import { useMediaQuery } from '@material-ui/core';
+import { useMediaQuery } from '@mui/material';
 
 function SampleNextArrow(props) {
   const { onClick } = props;
