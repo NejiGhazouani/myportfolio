@@ -5,6 +5,7 @@ import Features from "./components/features/Features";
 import FooterBottom from "./components/footer/FooterBottom";
 import Navbar from "./components/navbar/Navbar";
 import Resume from "./components/resume/Resume";
+import Projects from "./components/projects/Projects";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <div className="max-w-screen-xl mx-auto">
         <Banner />
         <Features />
-        {/* <Projects /> */}
+        <Projects />
         <Resume />
         {/* <Testimonial /> */}
         <Contact />
