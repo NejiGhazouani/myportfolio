@@ -4,6 +4,8 @@ import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import Slider from "react-slick";
 import { projects } from '../../constants/projects';
 import ProjectsCard from './ProjectsCard';
+import { useMediaQuery } from '@material-ui/core';
+
 function SampleNextArrow(props) {
   const { onClick } = props;
   return (
@@ -29,11 +31,13 @@ function SamplePrevArrow(props) {
 }
 const Projects = () => {
   const [dotActive, setDocActive] = useState(0);
+  const isMobile = useMediaQuery("(max-width: 768px)"); // define a breakpoint for mobile screens
+  const slidesToShow = isMobile ? 1 : 3; // if the screen is smaller than 768px, show 1 slide, otherwise show 3 slides
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: slidesToShow, // use the slidesToShow variable
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
@@ -111,6 +115,7 @@ const Projects = () => {
       </Slider>
     </section>
   );
-}
+};
+
 
 export default Projects;
