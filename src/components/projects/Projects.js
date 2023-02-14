@@ -1,8 +1,8 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 import Title from '../layouts/Title';
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import Slider from "react-slick";
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projects } from '../../constants/projects';
 import ProjectsCard from './ProjectsCard';
 function SampleNextArrow(props) {
   const { onClick } = props;
@@ -35,8 +35,8 @@ const Projects = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    nextArrow:<SampleNextArrow />,
-    prevArrow:<SamplePrevArrow />,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     beforeChange: (prev, next) => {
       setDocActive(next);
     },
@@ -65,21 +65,21 @@ const Projects = () => {
         style={
           i === dotActive
             ? {
-                width: "12px",
-                height: "12px",
-                color: "blue",
-                background: "#ff014f",
-                borderRadius: "50%",
-                cursor: "pointer",
-              }
+              width: "12px",
+              height: "12px",
+              color: "blue",
+              background: "#ff014f",
+              borderRadius: "50%",
+              cursor: "pointer",
+            }
             : {
-                width: "12px",
-                height: "12px",
-                color: "blue",
-                background: "gray",
-                borderRadius: "50%",
-                cursor: "pointer",
-              }
+              width: "12px",
+              height: "12px",
+              color: "blue",
+              background: "gray",
+              borderRadius: "50%",
+              cursor: "pointer",
+            }
         }
       ></div>
     ),
@@ -97,42 +97,17 @@ const Projects = () => {
         />
       </div>
       <Slider {...settings}>
-        <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
-        />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
-        />
-        <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-        />
+        {projects.map(({ _id, title, des, tools, src, thesis, git }) => (
           <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-        />
-          <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-        />
-          <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-        />
+            key={_id}
+            title={title}
+            des={des}
+            src={src}
+            tools={tools}
+            thesis={thesis}
+            git={git}
+          />
+        ))}
       </Slider>
     </section>
   );
