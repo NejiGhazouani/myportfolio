@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.0e8e94c7.css",
-    "main.js": "/myportfolio/static/js/main.a5412d2f.js",
+    "main.css": "/myportfolio/static/css/main.84753bed.css",
+    "main.js": "/myportfolio/static/js/main.91efa742.js",
+    "static/media/SIS.jpeg": "/myportfolio/static/media/SIS.5024fe542b6615a9b68a.jpeg",
+    "static/media/mangopay.png": "/myportfolio/static/media/mangopay.aa69d768498134d70cc6.png",
+    "static/media/inventory.png": "/myportfolio/static/media/inventory.b0b48962ee2843f863a9.png",
     "static/media/bannerImg.png": "/myportfolio/static/media/bannerImg.17a61f365400ffc3f070.png",
+    "static/media/hds.png": "/myportfolio/static/media/hds.42e47d7a67c0f2f08a1b.png",
     "static/media/contactImg.png": "/myportfolio/static/media/contactImg.8ddfbfd11798f881db54.png",
+    "static/media/edutopia.jpg": "/myportfolio/static/media/edutopia.4dc89fadf957fc6a062a.jpg",
     "static/media/testimonialOne.png": "/myportfolio/static/media/testimonialOne.c4706b2d1cadcb9f4daf.png",
-    "static/media/projectThree.jpeg": "/myportfolio/static/media/projectThree.47442baa3158613330ab.jpeg",
     "static/media/testimonialTwo.png": "/myportfolio/static/media/testimonialTwo.c6df2773c486964035d9.png",
-    "static/media/projectTwo.jpg": "/myportfolio/static/media/projectTwo.1fabe2c8c93632187ee6.jpg",
     "static/media/logo.png": "/myportfolio/static/media/logo.45ec76ca8b146c242a46.png",
+    "static/media/jenkins.jpg": "/myportfolio/static/media/jenkins.e8c5332615cbe24567bb.jpg",
     "index.html": "/myportfolio/index.html",
-    "main.0e8e94c7.css.map": "/myportfolio/static/css/main.0e8e94c7.css.map",
-    "main.a5412d2f.js.map": "/myportfolio/static/js/main.a5412d2f.js.map"
+    "main.84753bed.css.map": "/myportfolio/static/css/main.84753bed.css.map",
+    "main.91efa742.js.map": "/myportfolio/static/js/main.91efa742.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e8e94c7.css",
-    "static/js/main.a5412d2f.js"
+    "static/css/main.84753bed.css",
+    "static/js/main.91efa742.js"
   ]
 }
