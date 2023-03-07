@@ -69,7 +69,7 @@ const ProjectsCard = ({ title, des, src, git, thesis, tools }) => {
                 className="text-sm text-blue-500 hover:underline duration-300 cursor-pointer ml-1"
                 onClick={() => setIsHovered(!isHovered)}
               >
-                {isHovered ? '' : 'Read More'}
+                {isHovered ? 'Show Less' : 'Read More'}
               </button>
             )}
           </p>

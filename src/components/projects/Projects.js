@@ -96,7 +96,7 @@ const Projects = () => {
     >
       <div className="flex justify-center items-center text-center">
         <Title
-          title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
+          title="EXPLORE MY PORTFOLIO AND SHARE YOUR FEEDBACK WITH ME"
           des="My Projects"
         />
       </div>
