@@ -27,12 +27,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        A curious product-oriented full stack
-        developer, focused on developing scalable
-        and viable products through implementing
-        the best practices of code and with a gluttony
-        of knowledge-sharing and Embracing
-        mentorship
+        As a curious and product-oriented full-stack developer, I am passionate about building scalable and viable products by implementing the best coding practices. With a strong desire to share my knowledge and embrace mentorship, I strive to create high-quality applications that solve real-world problems and improve the user experience.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">

@@ -20,12 +20,12 @@ const Features = () => {
         />
         <Card
           title="Front End Development"
-          des="Creating and maintaining a  dynamic, interactive, and visually appealing user interfaces for websites and web applications."
+          des="Designing and maintaining dynamic, interactive, and visually appealing user interfaces for websites and web applications is my specialty."
           icon={<SiAntdesign />}
         /> 
         <Card
           title="Devops"
-          des="Using GitHub Actions automate tasks such as building, testing, and deploying your apps."
+          des="Leveraging GitHub Actions to automate key tasks, including building, testing, and deploying my apps, is a process I have mastered."
           icon={<FaGlobe />}
         />
       </div>
